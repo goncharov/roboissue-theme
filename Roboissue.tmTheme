@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Roboticket</string>
+	<string>Roboissue</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -35,7 +35,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#ad95af</string>
 			</dict>
@@ -70,7 +70,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword, source.java meta.definition.class.inherited.classes.java</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -102,7 +102,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#9b5656</string>
+				<string>#ab2525</string>
 			</dict>
 		</dict>
 		<dict>
@@ -115,7 +115,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ab2525</string>
+				<string>#295f94</string>
 			</dict>
 		</dict>
 		<dict>
@@ -152,9 +152,103 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#55aa55</string>
+			</dict>
+		</dict>
+
+<!-- Java -->
+
+		<dict>
+			<key>name</key>
+			<string>Java: package name</string>
+			<key>scope</key>
+			<string>source.java storage.modifier.package.java, source.java storage.modifier.import.java</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#585858</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Java: annotations</string>
+			<key>scope</key>
+			<string>source.java storage.type.annotation.java</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#808080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Java: primitives</string>
+			<key>scope</key>
+			<string>source.java storage.type.primitive.java, source.java storage.type.primitive.array.java</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#295f94</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Java: /* javadoc tags */</string>
+			<key>scope</key>
+			<string>source.java comment.block.documentation.javadoc keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#cc9393</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Java: this, super</string>
+			<key>scope</key>
+			<string>source.java variable.language.java</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#295f94</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Java: classes</string>
+			<key>scope</key>
+			<string>source.java storage.type.generic.java, storage.type.java</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#585858</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Java: type arguments</string>
+			<key>scope</key>
+			<string>source.java storage.type.generic.java storage.type.java, source.java entity storage.type.java</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#885d3b</string>
 			</dict>
 		</dict>
 
@@ -216,86 +310,6 @@
 			</dict>
 		</dict>
 
-<!-- Java -->
-
-		<dict>
-			<key>name</key>
-			<string>Java: import</string>
-			<key>scope</key>
-			<string>keyword.other.import.java</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#295f94</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Java: package name</string>
-			<key>scope</key>
-			<string>storage.modifier.package.java, storage.modifier.import.java</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#585858</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Java: meta-import</string>
-			<key>scope</key>
-			<string>storage.type.annotation.java</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#808080</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Java: Class</string>
-			<key>scope</key>
-			<string>meta.class.java storage.modifier.java, meta.definition.class.inherited.classes.java</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#295f94</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Java: /* comment */</string>
-			<key>scope</key>
-			<string>source.java comment.block</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#ad95af</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Java: /* annotations in comment */</string>
-			<key>scope</key>
-			<string>source.java comment.block.documentation.javadoc keyword</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#cc9393</string>
-			</dict>
-		</dict>
 		<dict>
 			<key>name</key>
 			<string>{}</string>
