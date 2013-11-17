@@ -252,6 +252,129 @@
 			</dict>
 		</dict>
 
+<!-- Markdown -->
+
+		<dict>
+			<key>name</key>
+			<string>MD: Bold</string>
+			<key>scope</key>
+			<string>markup.bold.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MD: Italic</string>
+			<key>scope</key>
+			<string>markup.italic.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MD: Headings</string>
+			<key>scope</key>
+			<string>markup.heading.markdown, markup.heading.markdown entity, markup.heading.1.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ab2525</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MD: Inlined raw</string>
+			<key>scope</key>
+			<string>markup.raw.inline.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#885d3b</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MD: Link title</string>
+			<key>scope</key>
+			<string>meta.link.inline.markdown string.other.link.title.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#295f94</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MD: Link location</string>
+			<key>scope</key>
+			<string>meta.link.inline.markdown markup.underline.link.markdown, meta.image.inline.markdown markup.underline.link.image.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#585858</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MD: Image description</string>
+			<key>scope</key>
+			<string>meta.image.inline.markdown string.other.link.description.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#55aa55</string>
+			</dict>
+		</dict>
+
+<!-- JSON -->
+
+		<dict>
+			<key>name</key>
+			<string>JSON: Dict keys</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#b05a65</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON: Dict values</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.value.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#317ecc</string>
+			</dict>
+		</dict>
+
 <!-- HTML -->
 
 		<dict>
